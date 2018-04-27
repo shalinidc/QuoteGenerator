@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Quote Genarator </title>
+</head>
+
+<body>
+  <audio src="./res/bgmusic.mp3" autoplay>
+<p>If you are reading this, it is because your browser does not support the audio element.     </p>
+<embed src="./res/bgmusic.mp3" width="180" height="90" hidden="true" />
+</audio>
+  <div class="bg"> </div>
+<div class="container">
+  <div id="quoteDisplay">
+    <!-- Quotes will be displayed here -->
+    <p>"The people who are crazy enough to think they can change the world are the ones who do." <br/>- Steve Jobs</p>
+    </div>
+  </div>
+
+  <div id="btn">
+    <a class="twitter-share-button" target="_blank" href="https://twitter.com/intent/tweet?text=p" >
+      <i class="fa fa-twitter" aria-hidden="true"></i></a> <br/>
+    <button id="gen" class="btn-lg" onclick="newQuote()">New Quote</button>
+  <script src = "javascript.js"></script>
+</div>
+</body>
+<html>

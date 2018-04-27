@@ -1,0 +1,42 @@
+body{
+  background-image: url("./res/bg.jpg");
+  background-size: cover;
+}
+
+#quoteDisplay{
+text-align: center;
+font-family: 'Gamja Flower', cursive;
+color: white;
+max-width: 50rem;
+letter-spacing: 0.1em;
+margin: 40px auto;
+line-height: 145%;
+font-size: 3rem;
+}
+
+.container{
+  padding-top: 6em;
+  text-align: center;
+}
+
+.fa-twitter {
+  font-size: 30px !important;
+  margin-left: 20px;
+}
+
+#btn{
+    width: 100%;
+    text-align: center;
+}
+
+#gen{
+  padding-top: 5px;
+  background-color: black;
+  color: white;
+  border: thin solid white;
+  height: 40px;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-top: 50px;
+  outline: none;
+}
